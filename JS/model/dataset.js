@@ -4,7 +4,7 @@ const dataset = [
 		image: "./Img/angus-e-brangus.jpg",
 		raca: "Angus",
 		peso: 500,
-		datanasc: "09/05/2021",
+		datanasc: "2022-02-09",
 	},
 ];
 

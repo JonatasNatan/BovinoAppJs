@@ -42,12 +42,13 @@
 			<h1 class="mt-5 text-center">Registrados</h1>
 
 			<div class="text-right">
-				<button type="button" class="btn btn-secondary rounded-circle mr-4 font-weight-bold" id="newBtnBovino"
+				<button type="button" class="xizinho btn btn-secondary rounded-circle mr-4 font-weight-bold" id="newBtnBovino"
 					data-bs-toggle="modal" data-bs-target="#formCreateBovino" onclick="loadFormCreateBovino()">
 					+
 				</button>
 			</div>
-			<section class="card-deck my-3"></section>
+			<div class="card-deck row row-cols-1 row-cols-md-3 g-4">
+			</div>
 
 			<form id="formBovino">
 				<div class="modal fade" id="formCreateBovino" tabindex="-1" aria-labelledby="formBovinoLabel"
@@ -75,7 +76,7 @@
 								</div>
 								<div class="form-group">
 									<label for="bovino-nasc">Data de Nascimento</label>
-									<input type="text" class="form-control" name="nasc" id="data-nasc" />
+									<input type="date" class="form-control" name="datanasc" id="data-nasc" />
 								</div>
 							</div>
 							<div class="modal-footer">
