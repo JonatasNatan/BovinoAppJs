@@ -19,6 +19,7 @@ function loadBovino() {
 		localStorage.setItem("bovinos-app:loaded", "ok");
 	}
 	for (const bovino of bovinos.readAll()) {
+		
 		createBovinoView(bovino);
 	}
 }
